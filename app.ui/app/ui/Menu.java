@@ -37,7 +37,7 @@ public class Menu {
 
     public static void clearScreen() {
         // Trik sederhana untuk "membersihkan" layar di berbagai konsol
-        for (int i = 0; i < 50; ++i)
+        for (int i = 0; i < 2; ++i)
             System.out.println();
     }
 

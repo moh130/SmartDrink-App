@@ -38,6 +38,7 @@ public class Main {
                     pressEnterToContinue();
                     break;
                 case 4: // Edit Minuman
+                    service.tampilkanSemuaMinuman(); // Tampilkan daftar sebelum edit
                     System.out.print("Masukkan ID minuman yang akan diedit: ");
                     int idEdit = scanner.nextInt();
                     System.out.print("Harga baru: ");
@@ -48,6 +49,7 @@ public class Main {
                     pressEnterToContinue();
                     break;
                 case 5: // Hapus Minuman
+                    service.tampilkanSemuaMinuman(); // Tampilkan daftar sebelum hapus
                     System.out.print("Masukkan ID minuman yang akan dihapus: ");
                     int idHapus = scanner.nextInt();
                     service.hapusMinuman(idHapus);
